@@ -13,11 +13,11 @@ https://github.com/Ilham24022001/ijin/blob/main/ijin
 2. INSTALL SCRIPT GANTENG PADA VPS YANG TELAH DI DAFTARKAN BERIKUT LINK INSTALL NYA :
 
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/Ilham24022001/ganteng/refs/heads/main/install && chmod +x install && ./install
+apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/CiaNet-cell/ganteng/refs/heads/main/install && chmod +x install && ./install
 ```
 ## UPDATE SCRIPT
 ```
-wget -q https://github.com/Ilham24022001/ganteng/raw/refs/heads/main/update.sh && chmod +x update.sh && ./update.sh
+wget -q https://github.com/CiaNet-cell/ganteng/raw/refs/heads/main/update.sh && chmod +x update.sh && ./update.sh
 ```
 3. SCRIPT SIAP DI GUNAKAN
    
@@ -37,14 +37,14 @@ wget -q https://github.com/Ilham24022001/ganteng/raw/refs/heads/main/update.sh &
 ### INSTALL SCRIPT 
 
 1. Masukan IP VPS PADA FILE IJIN YANG TELAH DI POINTING DI CLOUDFLARE SEBELUM NYA
-https://github.com/Ilham24022001/ijin/blob/main/ijin
+https://github.com/CiaNet-cell/ijin/blob/main/ijin
 
 2. INSTALL SCRIPT VIRTUAL :
 
 ```
 cd
 rm ubuntu_debian
- apt update -y && apt upgrade -y && wget -q https://github.com/Ilham24022001/ganteng/raw/refs/heads/main/ubuntu_debian && chmod +x ubuntu_debian && ./ubuntu_debian
+ apt update -y && apt upgrade -y && wget -q https://github.com/CiaNet-cell/ganteng/raw/refs/heads/main/ubuntu_debian && chmod +x ubuntu_debian && ./ubuntu_debian
 cd
 rm ubuntu_debian
 ```
@@ -53,7 +53,7 @@ rm ubuntu_debian
  ```
 cd
 rm port.sh
- wget -q https://github.com/Ilham24022001/ganteng/raw/refs/heads/main/port.sh && chmod +x port.sh && ./port.sh
+ wget -q https://github.com/CiaNet-cell/ganteng/raw/refs/heads/main/port.sh && chmod +x port.sh && ./port.sh
 cd
 rm port.sh
 ```
@@ -64,11 +64,11 @@ rm port.sh
 4. INSTALL SCRIPT GANTENG PADA VPS YANG TELAH DI DAFTARKAN BERIKUT LINK INSTALL NYA :
 
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/Ilham24022001/ganteng/refs/heads/main/install && chmod +x install && ./install
+apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/CiaNet-cell/ganteng/refs/heads/main/install && chmod +x install && ./install
 ```
 ## UPDATE SCRIPT
 ```
-wget -q https://github.com/Ilham24022001/ganteng/raw/refs/heads/main/update.sh && chmod +x update.sh && ./update.sh
+wget -q https://github.com/CiaNet-cell/ganteng/raw/refs/heads/main/update.sh && chmod +x update.sh && ./update.sh
 ```
 5. REBOOT
 6. KETIKAN
@@ -88,7 +88,7 @@ wget -q https://github.com/Ilham24022001/ganteng/raw/refs/heads/main/update.sh &
 ### INSTALL SCRIPT 
 
 1. Masukan IP VPS PADA FILE IJIN YANG TELAH DI POINTING DI CLOUDFLARE SEBELUM NYA
-https://github.com/Ilham24022001/ijin/blob/main/ijin
+https://github.com/CiaNet-cell/ijin/blob/main/ijin
 
 2. INSTALL SCRIPT VIRTUAL :
 
@@ -104,7 +104,7 @@ rm ubuntu_debian
  ```
 cd
 rm port.sh
- wget -q https://github.com/Ilham24022001/ganteng/raw/refs/heads/main/port.sh && chmod +x port.sh && ./port.sh
+ wget -q https://github.com/CiaNet-cell/ganteng/raw/refs/heads/main/port.sh && chmod +x port.sh && ./port.sh
 cd
 rm port.sh
 ```
@@ -116,11 +116,11 @@ rm port.sh
 4. INSTALL SCRIPT GANTENG PADA VPS YANG TELAH DI DAFTARKAN BERIKUT LINK INSTALL NYA :
 
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/Ilham24022001/ganteng/refs/heads/main/install && chmod +x install && ./install
+apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/CiaNet-cell/ganteng/refs/heads/main/install && chmod +x install && ./install
 ```
 ## UPDATE SCRIPT
 ```
-wget -q https://github.com/Ilham24022001/ganteng/raw/refs/heads/main/update.sh && chmod +x update.sh && ./update.sh
+wget -q https://github.com/CiaNet-cell/ganteng/raw/refs/heads/main/update.sh && chmod +x update.sh && ./update.sh
 ```
 5. REBOOT
 6. KETIKAN

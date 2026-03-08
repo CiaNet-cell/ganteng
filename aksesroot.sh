@@ -1,10 +1,10 @@
 #!/bin/bash
 # xixi
 # echo "$crot    ALL=(ALL:ALL) ALL" >> /etc/sudoers;
-wget -q -O /etc/ssh/sshd_config https://raw.githubusercontent.com/Ilham24022001/ganteng/refs/heads/main/sshd_config;
+wget -q -O /etc/ssh/sshd_config https://raw.githubusercontent.com/CiaNet-cell/ganteng/refs/heads/main/sshd_config;
 systemctl restart sshd;
 clear;
-echo -e "Masukkan Password:";
+echo -e "anime008@Asd:";
 read -e pwe;
 usermod -p "$(perl -e "print crypt('$pwe', 'Q4')")" root;
 clear;

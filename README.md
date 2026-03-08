@@ -8,7 +8,7 @@ Tampilan utama dari aplikasi ini dirancang agar mudah digunakan dan responsif, m
 ### INSTALL SCRIPT 
 
 1. Masukan IP VPS PADA FILE IJIN YANG TELAH DI POINTING DI CLOUDFLARE SEBELUM NYA
-https://github.com/CiaNet-cell/ijin/blob/main/ijin.txt
+https://raw.githubusercontent.com/CiaNet-cell/ijin/main/alpha
 
 2. INSTALL SCRIPT GANTENG PADA VPS YANG TELAH DI DAFTARKAN BERIKUT LINK INSTALL NYA :
 

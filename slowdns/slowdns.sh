@@ -21,7 +21,7 @@ rm nsdomain
 #input nameserver manual to cloudflare
 #read -rp "Masukkan domain: " -e domain
 
-read -rp "Masukkan Subdomain Yang Dipakai Host Sekarang: " -e sub
+read -rp "vpn.ciawifi.web.id: " -e sub
 SUB_DOMAIN=${sub}
 NS_DOMAIN=ns-${SUB_DOMAIN}
 echo $NS_DOMAIN > /root/nsdomain
@@ -57,10 +57,10 @@ service sshd restart
 #konfigurasi slowdns
 rm -rf /etc/slowdns
 mkdir -m 777 /etc/slowdns
-wget -q -O /etc/slowdns/server.key "https://raw.githubusercontent.com/Ilham24022001/ganteng/refs/heads/main/slowdns/server.key"
-wget -q -O /etc/slowdns/server.pub "https://raw.githubusercontent.com/Ilham24022001/ganteng/refs/heads/main/slowdns/server.pub"
-wget -q -O /etc/slowdns/sldns-server "https://raw.githubusercontent.com/Ilham24022001/ganteng/refs/heads/main/slowdns/sldns-server"
-wget -q -O /etc/slowdns/sldns-client "https://raw.githubusercontent.com/Ilham24022001/ganteng/refs/heads/main/slowdns/sldns-client"
+wget -q -O /etc/slowdns/server.key "https://raw.githubusercontent.com/CiaNet-cell/ganteng/main/slowdns/server.key"
+wget -q -O /etc/slowdns/server.pub "https://raw.githubusercontent.com/CiaNet-cell/ganteng/main/slowdns/server.pub"
+wget -q -O /etc/slowdns/sldns-server "https://raw.githubusercontent.com/CiaNet-cell/ganteng/main/slowdns/sldns-server"
+wget -q -O /etc/slowdns/sldns-client "https://raw.githubusercontent.com/CiaNet-cell/ganteng/main/slowdns/sldns-client"
 cd
 chmod +x /etc/slowdns/server.key
 chmod +x /etc/slowdns/server.pub
@@ -75,7 +75,7 @@ cd
 #install client-sldns.service
 cat > /etc/systemd/system/client-sldns.service << END
 [Unit]
-Description=Client SlowDNS By Hokage Legend
+Description=Client SlowDNS By Cianet
 Documentation=https://nekopoi.care
 After=network.target nss-lookup.target
 

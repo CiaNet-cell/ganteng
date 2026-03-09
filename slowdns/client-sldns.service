@@ -1,5 +1,5 @@
 [Unit]
-Description=SlowDNS By Cianet, nameserver= isi dengan ns cloudflare
+Description=SlowDNS By Cianet, nameserver= ed.ns.cloudflare.com
 Documentation=https://nekopoi.care
 After=network.target nss-lookup.target
 

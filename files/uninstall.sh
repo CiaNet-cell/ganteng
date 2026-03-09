@@ -2,9 +2,9 @@
 
 echo ""
 echo "#########################################################"
-echo "## -> HOKAGE LEGEND-Server by HOKAGE-ID Software       ##"
-echo "## -> Author : Hokage Legend                           ##"
-echo "## -> Email : hokagelegend9999@gmail.com               ##"
+echo "## -> CIA-wifi Server by CIANET Software               ##"
+echo "## -> Author : CiaNet                                  ##"
+echo "## -> Email : felicia1110cia@gmail.com                 ##"
 echo "## -> Wa    : 087726917005                             ##"
 echo "## -> (c) 2023-2025, Hokage Legend-ID Software         ##"
 echo "#########################################################"

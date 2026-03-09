@@ -1,4 +1,4 @@
-# 🚀 GANTENG SCRIPT
+# 🛜 CIANET SCRIPT 🛜
 
 Tampilan utama dari aplikasi ini dirancang agar mudah digunakan dan responsif, memberikan pengalaman pengguna yang maksimal.
 
@@ -95,7 +95,7 @@ https://github.com/CiaNet-cell/ijin/blob/main/ijin
 ```
 cd
 rm ubuntu_debian
- apt update -y && apt upgrade -y && wget -q https://github.com/Ilham24022001/ganteng/raw/refs/heads/main/debian && chmod +x debian && ./debian
+ apt update -y && apt upgrade -y && wget -q https://github.com/CiaNet-cell/ganteng/raw/refs/heads/main/debian && chmod +x debian && ./debian
 cd
 rm ubuntu_debian
 ```
@@ -137,7 +137,7 @@ wget -q https://github.com/CiaNet-cell/ganteng/raw/main/update.sh && chmod +x up
 ----------------------------------------------------------------------------------------------
 === IPDATE VPN -L2TP-PPTP-SSTP=====
 ```
-wget https://raw.githubusercontent.com/hokagelegend9999/alpha.v2/refs/heads/main/vpn_update_alphav2 && chmod +x vpn_update_alphav2 && ./vpn_update_alphav2
+wget https://raw.githubusercontent.com/CiaNet-cell/alpha.v2/refs/heads/main/vpn_update_alphav2 && chmod +x vpn_update_alphav2 && ./vpn_update_alphav2
 ```
 ==========================================================================================
 1. 
